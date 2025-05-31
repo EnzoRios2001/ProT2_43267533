@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nuestro Equipo - Tech Company</title>
+    <link rel="stylesheet" href="miestilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .team-member-card {
+            margin-bottom: 2rem;
+            transition: transform 0.3s;
+        }
+        .team-member-card:hover {
+            transform: translateY(-5px);
+        }
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+        .history-section {
+            background-color: #f5faff;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="./principal.html">Volver al Inicio</a></li>
+        <li><a href="./sesion.html">Iniciar Sesion</a></li>
+        <li><a href="https://talentosdigitales.ar/" target="_blank">Talentos Digitales</a></li>
+        <div class="search-box">
+          <form method="get" id="search-form">
+            <fieldset>
+              <input type="text" id="search-input" placeholder="Buscar" />
+              <input class="search-button" type="submit" value="Buscar" />
+              <i class="search-icon"></i>
+            </fieldset>
+          </form>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Nuestra Historia y Equipo</h1>
+
+        <div class="history-section">
+            <h2 class="mb-4">Historia de Tech Company</h2>
+            <p>Tech Company nació en 2020 de la visión de María González y Juan Pérez, dos apasionados desarrolladores que soñaban con crear soluciones tecnológicas innovadoras y accesibles para empresas de todos los tamaños.</p>
+            <p>Lo que comenzó como un pequeño emprendimiento en un garaje, rápidamente se transformó en una empresa líder en el desarrollo de software personalizado, gracias a nuestro compromiso con la excelencia y la innovación continua.</p>
+        </div>
+
+        <h2 class="text-center mb-4">Nuestro Equipo Directivo</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card team-member-card">
+                    <img src="https://randomuser.me/api/portraits/women/76.jpg" class="card-img-top" alt="María González">
+                    <div class="card-body">
+                        <h5 class="card-title">María González</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CEO y Cofundadora</h6>
+                        <p class="card-text">Con más de 15 años de experiencia en desarrollo de software y gestión de proyectos tecnológicos. Graduada en Ingeniería Informática.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card team-member-card">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" class="card-img-top" alt="Juan Pérez">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Pérez</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CTO y Cofundador</h6>
+                        <p class="card-text">Especialista en arquitectura de software y nuevas tecnologías. Lidera el equipo de desarrollo e innovación tecnológica.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card team-member-card">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" class="card-img-top" alt="Ana Martínez">
+                    <div class="card-body">
+                        <h5 class="card-title">Ana Martínez</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Directora de Proyectos</h6>
+                        <p class="card-text">Experta en gestión de proyectos ágiles y desarrollo de equipos. Responsable de garantizar la satisfacción del cliente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4 mb-5">
+            <h2>Nuestro Equipo Técnico</h2>
+            <p>Contamos con un equipo de 15 profesionales altamente calificados, incluyendo:</p>
+            <ul class="list-unstyled">
+                <li>6 Desarrolladores Full Stack</li>
+                <li>3 Diseñadores UX/UI</li>
+                <li>3 Especialistas en QA</li>
+                <li>2 DevOps Engineers</li>
+                <li>1 Product Manager</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="m-0">© 2025 Tech Company. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

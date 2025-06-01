@@ -23,7 +23,6 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
     // Obtener usuarios existentes
     let users = JSON.parse(localStorage.getItem('users')) || [];
     
-    // Verificar si el email ya está registrado
     if (users.some(user => user.email === userData.email)) {
         alert('Este email ya está registrado');
         return;
@@ -51,7 +50,6 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     
     if (user) {
         alert(`¡Bienvenido ${user.name}!`);
-        // Aquí puedes redirigir al usuario a otra página o mostrar contenido adicional
     } else {
         alert('Email o contraseña incorrectos');
     }

@@ -161,47 +161,97 @@ button:hover {
 
 /* Estilos para el buscador */
 .search-box {
-    margin-left: auto;
-    padding: 0 20px;
+  margin-left: auto;
+  padding: 0 20px;
 }
 
 .search-box fieldset {
-    border: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 #search-input {
-    width: 200px;
-    padding: 8px 12px;
-    border: 2px solid #176087;
-    border-radius: 20px 0 0 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #333;
-    font-size: 14px;
-    transition: all 0.3s ease;
+  width: 200px;
+  padding: 8px 12px;
+  border: 2px solid #176087;
+  border-radius: 20px 0 0 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-size: 14px;
+  transition: all 0.3s ease;
 }
 
 #search-input:focus {
-    outline: none;
-    background-color: white;
-    width: 250px;
+  outline: none;
+  background-color: white;
+  width: 250px;
 }
 
 .search-button {
-    padding: 8px 15px;
-    background-color: #176087;
-    border: 2px solid #176087;
-    border-radius: 0 20px 20px 0;
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-    transition: all 0.3s ease;
+  padding: 8px 15px;
+  background-color: #176087;
+  border: 2px solid #176087;
+  border-radius: 0 20px 20px 0;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
 }
 
 .search-button:hover {
-    background-color: #0f4c6a;
-    border-color: #0f4c6a;
+  background-color: #0f4c6a;
+  border-color: #0f4c6a;
+}
+
+.logo-img {
+  max-height: 100px;
+  margin: 10px auto;
+  border: none;
+}
+
+main {
+  min-height: calc(100vh - 250px);
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.carousel {
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-section {
+  background-color: #f5faff;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.team-member-card {
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
+
+.team-member-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.history-section {
+  background-color: #f5faff;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
 }

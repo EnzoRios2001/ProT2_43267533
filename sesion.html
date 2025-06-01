@@ -12,25 +12,40 @@
         integrity="sha3849ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <header>
-        <nav>
-            <ul>
-                <li><a href="./equipo.html">¿Quienes somos?</a></li>
-                <li><a href="principal.html">Volver al Inicio</a></li>
-                <li><a href="https://talentosdigitales.ar/" target="_blank">Talentos Digitales</a></li>
-                <div class="search-box">
-                    <form method="get" id="search-form">
-                        <fieldset>
-                            <input type="text" id="search-input" placeholder="Buscar" />
-                            <input class="search-button" type="submit" value="Buscar" />
-                            <i class="search-icon"></i>
-                        </fieldset>
-                    </form>
-                </div>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="./equipo.html">¿Quienes somos?</a></li>
+            <li><a href="principal.html">Volver al Inicio</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Talentos Digitales
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://talentosdigitales.ar/" target="_blank">Sitio
+                            Principal</a></li>
+                    <li><a class="dropdown-item" href="#">Cursos</a></li>
+                    <li><a class="dropdown-item" href="#">Certificaciones</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Contacto</a></li>
+                </ul>
+            </li>
+            <div class="search-box">
+                <form method="get" id="search-form">
+                    <fieldset>
+                        <input type="text" id="search-input" placeholder="Buscar" />
+                        <input class="search-button" type="submit" value="Buscar" />
+                        <i class="search-icon"></i>
+                    </fieldset>
+                </form>
+            </div>
+        </ul>
+    </nav>
+</header>
+
 <body>
-    
+
     <div class="form-container" id="formContainer">
         <!-- Formulario de Login -->
         <form id="loginForm">
